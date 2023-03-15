@@ -6,7 +6,7 @@ To add a new reference please edit the [`va.bib`](https://github.com/TIBHannover
 
 Please unify the references (delete _Proceedings of_, add publisher, add pages, etc.) according to the this [wiki page](https://wiki.tib.eu/confluence/display/varg/Unify+References).
 
-You can exclude a reference from beeing printed for the work from the whole group by adding the following line to you bibtex entry:
+You can exclude a reference from beeing printed for the work from the whole group by adding the `status = {exlcude}` to your bibtex entry:
 
 ```bibtex
 @InProceedings{bibkey,
