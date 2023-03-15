@@ -2,7 +2,7 @@
 title: "How to add a reference?"
 ---
 
-To add a new reference please update the [`va.bib`](https://github.com/TIBHannover/va-bib/blob/main/_bibliography/va.bib) file.
+To add a new reference please edit the [`va.bib`](https://github.com/TIBHannover/va-bib/blob/main/_bibliography/va.bib) file and send a pull request.
 
 Please unify the references (delete _Proceedings of_, add publisher, add pages, etc.) according to the already inserted references. A wiki page in the TIB confluence will follow.
 
