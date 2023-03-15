@@ -2,7 +2,7 @@
 title: "How to add a reference?"
 ---
 
-To add a new reference please update the [`rgva.bib`](https://git.tib.eu/varg-tools/rgva-references/-/blob/main/_bibliography/rgva.bib) file.
+To add a new reference please update the [`va.bib`](https://github.com/TIBHannover/va-bib/blob/main/_bibliography/va.bib) file.
 
 Please unify the references (delete _Proceedings of_, add publisher, add pages, etc.) according to the already inserted references. A wiki page in the TIB confluence will follow.
 
