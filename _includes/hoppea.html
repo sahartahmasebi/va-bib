@@ -1,0 +1,17 @@
+ <!-- Publications Section -->
+    <section class="secondary" id="hoppea"">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Dr. Anett Hoppe</h2>
+                    <hr class="star-secondary">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    {% bibliography --query @*[author ~= Hoppe] %}
+                </div>
+            </div>
+        </div>
+    </section>

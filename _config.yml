@@ -1,0 +1,38 @@
+# Site settings
+title: RGVA - Publications
+nav-title: RGVA - Publications
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 555555 # Font Color
+  primary-light: 9F3636 # Link Color
+  primary-dark: 9F3636 # Navbar Color
+  secondary: ffffff # Background Color
+
+# Bibliography
+scholar:
+  style: apa
+  locale: en
+
+  sort_by: year
+  order: descending
+
+  group_by: type, year
+  group_order: descending
+
+  source: ./_bibliography
+  bibliography: va.bib
+  bibliography_template: ""
+
+  replace_strings: true
+  join_strings: true
+
+  details_dir: bibliography
+  details_layout: bibtex.html
+  details_link: Details
+
+  query: "@*"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

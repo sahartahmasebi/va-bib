@@ -1,0 +1,17 @@
+ <!-- Publications Section -->
+    <section class="secondary" id="theinerj"">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Jonas Theiner</h2>
+                    <hr class="star-secondary">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    {% bibliography --query @*[author ~= Theiner] %}
+                </div>
+            </div>
+        </div>
+    </section>
