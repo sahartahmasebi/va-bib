@@ -1,6 +1,6 @@
 # Visual Analytics Bibliography
 
-To run the website, please execute:
+https://tibhannover.github.io/va-bib/
 
 ## Add a new Reference
 
@@ -18,7 +18,7 @@ This is useful for works that you want to be visible on your profile page but th
 
 An example is shown in `Breitbarth2015` in the [`va.bib`](_bibliography/va.bib) file.
 
-## Installation
+## Local Installation
 
 source: https://jekyllrb.com/docs/
 
