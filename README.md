@@ -6,7 +6,9 @@ https://tibhannover.github.io/va-bib/
 
 To add a new reference please update the [`va.bib`](_bibliography/va.bib) file.
 
-Please unify (delete proceedings, edition, etc.) the references according to the already inserted references. A wiki page in the TIB confluence will follow.
+Please unify (delete proceedings, edition, etc.) the references according to the already inserted references according to this [wiki page](https://wiki.tib.eu/confluence/display/varg/Unify+References).
+
+Please make sure that your entries always contain the `year` information as otherwise the website will not compile properly.
 
 You can exclude a reference from beeing printed for the work from the whole group by adding the following line to you bibtex entry:
 
