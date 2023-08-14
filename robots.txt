@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://va-bib.github.io/sitemap.xml
+Sitemap: https://tibhannover.github.io/va-bib/va-bib//sitemap.xml
