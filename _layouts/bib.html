@@ -1,8 +1,9 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-{{ query }}
+
 <div class="row">
+  {% comment %}
   <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
     {%- if entry.preview -%}
     {% if entry.preview contains '://' -%}
@@ -26,6 +27,11 @@
     <abbr class="badge">{{entry.abbr}}</abbr>
     {%- endif -%}
     {%- endif -%}
+  </div>
+  {% endcomment %}
+
+  <div class="col-sm-1 text-right">
+    <b>[{{ index }}]</b>
   </div>
 
   <!-- Entry bib key -->
