@@ -1,34 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="{{ site.lang }}">
 
-{% include head.html %}
+  <!-- Head -->
+  <head>
+  {%- if page.redirect -%}
+    <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
+  {%- endif -%}
+  {% include head.html %}
+  </head>
 
-<body id="page-top" class="index">
-    {% include nav.html %}
+  <!-- Body -->
+  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
-    <div class="container" style="margin-top: 3em;"></div>
+    <!-- Header -->
+    {%- include header.html %}
 
-    {% include posts.html %}
+    <!-- Content -->
+    <div class="container mt-5">
+      {{ content }}
+    </div>
 
-    {% include publications.html %}
-    {% include ewerthr.html %}
-    {% include hoppea.html %}
-    {% include muellerer.html %}
-    {% include awales.html %}
-    {% include cheemag.html %}
-    {% include entrupe.html %}
-    {% include ghaurij.html %}
-    {% include gritzw.html %}
-    {% include navarretee.html %}
-    {% include ottoc.html %}
-    {% include pustuk.html %}
-    {% include sebastianr.html %}
-    {% include springsteinm.html %}
-    {% include stamatakism.html %}
-    {% include tahmasebis.html %}
-    {% include tahmasebzadehg.html %}
-    {% include theinerj.html %}
+    <!-- Footer -->
+    {%- include footer.html %}
 
-    {% include js.html %}
-</body>
+    <!-- JavaScripts -->
+    {% include scripts/jquery.html %}
+    {% include scripts/bootstrap.html %}
+    {% include scripts/masonry.html %}
+    {% include scripts/misc.html %}
+    {% include scripts/badges.html %}
+    {% include scripts/mathjax.html %}
+    {% include scripts/analytics.html %}
+    {% include scripts/progressBar.html %}
+  </body>
 </html>
