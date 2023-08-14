@@ -58,17 +58,24 @@
       {%- endfor -%}
       {%- endif -%}
 
+      {%- assign authorfirst = author.first | split: " " -%}
+      {% capture authorinitials %}
+      {% for name in authorfirst %}
+      {{ name | slice: 0 }}.
+      {% endfor %}
+      {% endcapture %}
+
       {%- if forloop.length > 1 -%}
       {%- if forloop.first == false -%},&nbsp;{%- endif -%}
       {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
       {%- endif -%}
       {%- if author_is_self -%}
-      <em>{{author.first}} {{author.last}}</em>
+      <em>{{authorinitials}} {{author.last}}</em>
       {%- else -%}
       {%- if coauthor_url -%}
-      <a href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+      <a href="{{coauthor_url}}">{{authorinitials}} {{author.last}}</a>
       {%- else -%}
-      {{author.first}} {{author.last}}
+      {{authorinitials}} {{author.last}}
       {%- endif -%}
       {%- endif -%}
       {%- endfor -%}
@@ -132,6 +139,13 @@
     {%- capture entrynumber -%}({{ entry.number }}){%- endcapture -%}
     {%- else -%}
     {%- capture entrynumber -%}{{ "" }}{%- endcapture -%}
+    {%- endif -%}
+
+    <!-- Series -->
+    {%- if entry.series -%}
+    {%- capture entryseries -%}, {{ entry.series }}{%- endcapture -%}
+    {%- else -%}
+    {%- capture entryseries -%}{{ "" }}{%- endcapture -%}
     {%- endif -%}
 
     <!-- Pages -->
@@ -256,7 +270,6 @@
       <p>{{ entry.abstract }}</p>
     </div>
     {%- endif -%}
-
 
     <!-- Hidden bibtex block -->
     <div class="bibtex hidden">
