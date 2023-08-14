@@ -59,11 +59,11 @@
       {%- endif -%}
 
       {%- assign authorfirst = author.first | split: " " -%}
-      {% capture authorinitials %}
-      {% for name in authorfirst %}
+      {% capture authorinitials -%}
+      {% for name in authorfirst -%}
       {{ name | slice: 0 }}.
-      {% endfor %}
-      {% endcapture %}
+      {% endfor -%}
+      {% endcapture -%}
 
       {%- if forloop.length > 1 -%}
       {%- if forloop.first == false -%},&nbsp;{%- endif -%}
@@ -107,7 +107,7 @@
               }, '{{site.more_authors_animation_delay}}');
               ">{{more_authors_hide}}</span>
       {%- endif -%}
-
+      :
     </div>
 
     <!-- Title -->
