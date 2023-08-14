@@ -40,3 +40,10 @@ bundle exec jekyll serve
 ```
 
 - Browse to http://localhost:4000
+
+## TODOs
+
+- [ ] Navigation bar
+- [ ] Boldify authors on individual bibliography pages
+- [ ] Possibility to change grouping and apply filters on the fly
+
