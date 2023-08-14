@@ -7,6 +7,8 @@ nav: false
 nav_order: 0
 ---
 
+<!-- _pages/publications.md -->
+
 - [Whole group](/va-bib/rgva)
 - [Prof. Dr. Ralph Ewerth](/va-bib/ewerthr)
 - [Dr. Anett Hoppe](/va-bib/hoppea)

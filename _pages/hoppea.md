@@ -7,7 +7,7 @@ nav: false
 nav_order: 1
 ---
 
-<!-- _pages/publications.md -->
+<!-- _pages/hoppea.md -->
 <div class="publications">
 
 {% bibliography -f {{ site.scholar.bibliography }} --query @*[author ~= Hoppe] %}
