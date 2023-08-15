@@ -2,31 +2,31 @@
 layout: page
 permalink: /
 title: RGVA Publications
-description: By clicking on the respective person you can access her/his list of publications.
+description: By clicking on the respective person you can access her/his list of publications sorted by the respective criterion
 nav: false
 nav_order: 0
 ---
 
 <!-- _pages/publications.md -->
 
-- [Whole group](/va-bib/rgva)
-- [Prof. Dr. Ralph Ewerth](/va-bib/ewerthr)
-- [Dr. Anett Hoppe](/va-bib/hoppea)
-- [Dr. Eric Müller-Budack](/va-bib/muellerer)
-- [Dr. Christian Otto](/va-bib/ottoc)
-- [Sushil Awale](/va-bib/awales)
-- [Gullal Cheema](/va-bib/cheemag)
-- [Elias Entrup](/va-bib/entrupe)
-- [Junaid Ghauri](/va-bib/ghaurij)
-- [Wolfgang Gritz](/va-bib/gritzw)
-- [Evelyn Navarrete](/va-bib/navarretee)
-- [Kader Pustu-Iren](/va-bib/pustuk)
-- [Ratan Sebastian](/va-bib/sebastianr)
-- [Matthias Springstein](/va-bib/springsteinm)
-- [Markos Stamatakis](/va-bib/stamatakism)
-- [Sahar Tahmasebi](/va-bib/tahmasebis)
-- [Golsa Tahmasebzadeh](/va-bib/tahmasebzadehg)
-- [Jonas Theiner](/va-bib/theinerj)
+- Whole group ([year](/va-bib/rgva), [type](/va-bib/rgva-type))
+- Prof. Dr. Ralph Ewerth ([year](/va-bib/ewerthr), [type](/va-bib/ewerthr-type))
+- Dr. Anett Hoppe ([year](/va-bib/hoppea), [type](/va-bib/hoppea-type))
+- Dr. Eric Müller-Budack ([year](/va-bib/muellerer), [type](/va-bib/muellerer-type))
+- Dr. Christian Otto ([year](/va-bib/ottoc), [type](/va-bib/ottoc-type))
+- Sushil Awale ([year](/va-bib/awales), [type](/va-bib/awales-type))
+- Gullal Cheema ([year](/va-bib/cheemag), [type](/va-bib/cheemag-type))
+- Elias Entrup ([year](/va-bib/entrupe), [type](/va-bib/entrupe-type))
+- Junaid Ghauri ([year](/va-bib/ghaurij), [type](/va-bib/ghaurij-type))
+- Wolfgang Gritz ([year](/va-bib/gritzw), [type](/va-bib/gritzw-type))
+- Evelyn Navarrete ([year](/va-bib/navarretee), [type](/va-bib/navarretee-type))
+- Kader Pustu-Iren ([year](/va-bib/pustuk), [type](/va-bib/pustuk-type))
+- Ratan Sebastian ([year](/va-bib/sebastianr), [type](/va-bib/sebastianr-type))
+- Matthias Springstein ([year](/va-bib/springsteinm), [type](/va-bib/springsteinm-type))
+- Markos Stamatakis ([year](/va-bib/stamatakism), [type](/va-bib/stamatakism-type))
+- Sahar Tahmasebi ([year](/va-bib/tahmasebis), [type](/va-bib/tahmasebis-type))
+- Golsa Tahmasebzadeh ([year](/va-bib/tahmasebzadehg), [type](/va-bib/tahmasebzadehg-type))
+- Jonas Theiner ([year](/va-bib/theinerj), [type](/va-bib/theinerj-type))
 
 ## How to add a reference?
 To add a new reference please edit the [`va.bib`](https://github.com/TIBHannover/va-bib/blob/main/_bibliography/va.bib) file and send a pull request. Please add your entries under a comment with your name so that we know who added which bib entry.
