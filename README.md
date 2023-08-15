@@ -43,7 +43,6 @@ bundle exec jekyll serve
 
 ## TODOs
 
-- [ ] Navigation bar
 - [ ] Boldify authors on individual bibliography pages
-- [ ] Possibility to change grouping and apply filters on the fly
+- [ ] German Language
 
