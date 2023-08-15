@@ -12,6 +12,6 @@ nav_order: 1  # 1 - group, 2 - group leader, 3 - postdocs, 4 - phds
 <!-- _pages/rgva.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} --query @*[status != exclude && status != unpublished] %}
+{% bibliography -f {{ site.scholar.bibliography }} --query @*[status != exclude] %}
 
 </div>
