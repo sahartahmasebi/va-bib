@@ -69,7 +69,11 @@
           {% endfor -%}
         {% endcapture -%}
 
-        {%- if forloop.length > 1 -%}
+        {%- if forloop.length == 2 -%}
+          {%- if forloop.last and author_array_limit == author_array_size -%}&nbsp;and&nbsp;{%- endif -%}
+        {%- endif -%}
+
+        {%- if forloop.length > 2 -%}
           {%- if forloop.first == false -%},&nbsp;{%- endif -%}
           {%- if forloop.last and author_array_limit == author_array_size -%}and&nbsp;{%- endif -%}
         {%- endif -%}
@@ -83,41 +87,6 @@
           {%- endif -%}
         {%- endif -%}
       {%- endfor -%}
-      {%- assign more_authors = author_array_size | minus: author_array_limit -%}
-
-      {%- assign more_authors_hide = more_authors | append: " more author" -%}
-      {%- if more_authors > 0 -%}
-        {%- if more_authors > 1 -%}
-          {%- assign more_authors_hide = more_authors_hide | append: "s" -%}
-        {%- endif -%}
-        {%- assign more_authors_show = '' -%}
-        {%- for author in entry.author_array offset: author_array_limit -%}
-          {%- assign more_authors_show = more_authors_show | append: authorinitials | append: " " | append: author.last -%}
-          {%- unless forloop.last -%}
-            {%- assign more_authors_show = more_authors_show | append: ", " -%}
-          {%- endunless -%}
-        {%- endfor -%}
-        {%- if site.language == "en" %}
-          , and
-        {%- else %}
-          , und
-        {%- endif %}
-        <span
-          class="more-authors"
-          title="click to view {{more_authors_hide}}"
-          onclick="
-                                                                                                                                                                                                                                                                                                                                        var element = $(this);
-                                                                                                                                                                                                                                                                                                                                        element.attr('title', '');
-                                                                                                                                                                                                                                                                                                                                        var more_authors_text = element.text() == '{{more_authors_hide}}' ? '{{more_authors_show}}' : '{{more_authors_hide}}';
-                                                                                                                                                                                                                                                                                                                                        var cursorPosition = 0;
-                                                                                                                                                                                                                                                                                                                                        var textAdder = setInterval(function(){
-                                                                                                                                                                                                                                                                                                                                          element.text(more_authors_text.substring(0, cursorPosition + 1));
-                                                                                                                                                                                                                                                                                                                                          if (++cursorPosition == more_authors_text.length){
-                                                                                                                                                                                                                                                                                                                                            clearInterval(textAdder);
-                                                                                                                                                                                                                                                                                                                                          }
-                                                                                                                                                                                                                                                                                                                                      }, '{{site.more_authors_animation_delay}}');
-                                                                                                                                                                                                                                                                                                                                      ">{{ more_authors_hide }}</span>
-      {%- endif -%}
       :
     </div>
 
