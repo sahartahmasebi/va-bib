@@ -10,15 +10,41 @@ Please unify the references (delete _Proceedings of_, add publisher, add pages, 
 
 Please make sure that your entries always contain the `year` information as otherwise the website will not compile properly.
 
+You can add `award_de` and `award_en` to you paper to indicate awards (comma-separated):
+
+```bibtex
+@InProceedings{bibkey,
+  author = {Author et al.},
+  title  = {The title of this work},
+  
+  award_de = {Best Paper Award, Spotlight Session},
+  award_en = {Best Paper Award, Spotlight Session},
+}
+```
+
+You can indicate that the paper is accepted for publication by adding the `status = {unpublished}` to your bibtex entry:
+
+```bibtex
+@InProceedings{bibkey,
+  author = {Author et al.},
+  title  = {The title of this work},
+  
+  status = {unpublished},
+}
+```
+
 You can exclude a reference from beeing printed for the work from the whole group by adding the `status = {exclude}` to your bibtex entry:
 
-```
-status = {exclude},
+```bibtex
+@InProceedings{bibkey,
+  author = {Author et al.},
+  title  = {The title of this work},
+  
+  status = {exclude},
+}
 ```
 
-This is useful for works that you want to be visible on your profile page but that were created outside the group,
-
-An example is shown in `Breitbarth2015` in the [`va.bib`](_bibliography/va.bib) file.
+This is useful for works that you want to be visible on your profile page but that were created outside the group. An example is shown in `Breitbarth2015` in the [`va.bib`](_bibliography/va.bib) file.
 
 ## Local Installation
 
