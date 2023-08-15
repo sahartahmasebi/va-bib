@@ -35,7 +35,7 @@ Please unify the references (delete _Proceedings of_, add publisher, add pages, 
 
 Please make sure that your entries always contain the `year` information as otherwise the website will not compile properly.
 
-You can add a `award_de` and `award_en` to you paper to indicate awards (comma-separated):
+You can add `award_de` and `award_en` to you paper to indicate awards (comma-separated):
 
 ```bibtex
 @InProceedings{bibkey,
