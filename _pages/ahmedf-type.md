@@ -13,6 +13,6 @@ nav_order: 3  # 1 - group, 2 - group leader, 3 - postdocs, 4 - phds
 <div class="publications">
 
 {% assign groupby = "type, year" %}
-{% bibliography -f {{ site.scholar.bibliography }} --query @*[author ~= Ahmed] --group_by {{ groupby }} %}
+{% bibliography -f {{ site.scholar.bibliography }} --query @*[author ~= Fahad] --group_by {{ groupby }} %}
 
 </div>
