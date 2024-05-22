@@ -28,7 +28,7 @@ nav_order: 0
 - Golsa Tahmasebzadeh ([year](/va-bib/tahmasebzadehg), [type](/va-bib/tahmasebzadehg-type))
 - Jonas Theiner ([year](/va-bib/theinerj), [type](/va-bib/theinerj-type))
 
-### Former Members
+#### Former Members
 
 - Dr. Arthur Brack ([year](/va-bib/bracka), [type](/va-bib/bracka-type))
 - Dr. Sherzod Hakimov ([year](/va-bib/hakimovs), [type](/va-bib/hakimovs-type))
