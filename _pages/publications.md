@@ -13,7 +13,7 @@ nav_order: 0
 - Prof. Dr. Ralph Ewerth ([year](/va-bib/ewerthr), [type](/va-bib/ewerthr-type))
 - Dr. Anett Hoppe ([year](/va-bib/hoppea), [type](/va-bib/hoppea-type))
 - Dr. Eric Müller-Budack ([year](/va-bib/muellerer), [type](/va-bib/muellerer-type))
-- Dr. Christian Otto ([year](/va-bib/ottoc), [type](/va-bib/ottoc-type))
+- Fahad Ahmed ([year](/va-bib/ahmedf), [type](/va-bib/ahmedf-type))
 - Sushil Awale ([year](/va-bib/awales), [type](/va-bib/awales-type))
 - Gullal Cheema ([year](/va-bib/cheemag), [type](/va-bib/cheemag-type))
 - Elias Entrup ([year](/va-bib/entrupe), [type](/va-bib/entrupe-type))
@@ -27,6 +27,13 @@ nav_order: 0
 - Sahar Tahmasebi ([year](/va-bib/tahmasebis), [type](/va-bib/tahmasebis-type))
 - Golsa Tahmasebzadeh ([year](/va-bib/tahmasebzadehg), [type](/va-bib/tahmasebzadehg-type))
 - Jonas Theiner ([year](/va-bib/theinerj), [type](/va-bib/theinerj-type))
+
+### Former Members
+
+- Dr. Arthur Brack ([year](/va-bib/bracka), [type](/va-bib/bracka-type))
+- Dr. Sherzod Hakimov ([year](/va-bib/hakimovs), [type](/va-bib/hakimovs-type))
+- Dr. Christian Otto ([year](/va-bib/ottoc), [type](/va-bib/ottoc-type))
+- David Morris ([year](/va-bib/morrisd), [type](/va-bib/morrisd-type))
 
 ## How to add a reference?
 To add a new reference please edit the [`va.bib`](https://github.com/TIBHannover/va-bib/blob/main/_bibliography/va.bib) file and send a pull request. Please add your entries under a comment with your name so that we know who added which bib entry.
