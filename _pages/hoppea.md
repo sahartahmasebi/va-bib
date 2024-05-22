@@ -12,6 +12,7 @@ nav_order: 3  # 1 - group, 2 - group leader, 3 - postdocs, 4 - phds
 <!-- _pages/hoppea.md -->
 <div class="publications">
 
+<h2>Number of publications: {% bibliography_count -f {{ site.scholar.bibliography }} --query @*[author ~= Hoppe] %}</h2>
 {% bibliography -f {{ site.scholar.bibliography }} --query @*[author ~= Hoppe] %}
 
 </div>

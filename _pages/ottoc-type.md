@@ -12,6 +12,7 @@ nav_order: 5  # 1 - group, 2 - group leader, 3 - postdocs, 4 - phds
 <!-- _pages/ottoc-type.md -->
 <div class="publications">
 
+<h2>Number of publications: {% bibliography_count -f {{ site.scholar.bibliography }} --query @*[author ~= Otto] %}</h2>
 {% assign groupby = "type, year" %}
 {% bibliography -f {{ site.scholar.bibliography }} --query @*[author ~= Otto] --group_by {{ groupby }} %}
 

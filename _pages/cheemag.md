@@ -12,6 +12,7 @@ nav_order: 4  # 1 - group, 2 - group leader, 3 - postdocs, 4 - phds
 <!-- _pages/cheemag.md -->
 <div class="publications">
 
+<h2>Number of publications: {% bibliography_count -f {{ site.scholar.bibliography }} --query @*[author ~= Cheema] %}</h2>
 {% bibliography -f {{ site.scholar.bibliography }} --query @*[author ~= Cheema] %}
 
 </div>
