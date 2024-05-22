@@ -6,7 +6,7 @@ description: Publications by categories in reversed chronological order. Generat
 nav: true
 nav_type: true
 nav_year: false
-nav_order: 3  # 1 - group, 2 - group leader, 3 - postdocs, 4 - phds
+nav_order: 4  # 1 - group, 2 - group leader, 3 - postdocs, 4 - phds
 ---
 
 <!-- _pages/ahmedf-type.md -->
